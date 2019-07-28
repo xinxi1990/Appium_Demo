@@ -90,3 +90,4 @@ testpages/test_optional.py::TestOptional::test_select_stock
 testpages/test_optional.py::TestOptional::test_select_stock
 testpages/test_optional.py::TestOptional::test_select_stock
 testpages/test_optional.py::TestOptional::test_select_stock
+testpages/test_optional.py::TestOptional::test_select_stock

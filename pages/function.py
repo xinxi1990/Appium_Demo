@@ -88,7 +88,7 @@ class Funtion():
                     os.makedirs(path)
                 os.popen("adb pull /data/local/tmp/tmp.png " + path + "/" + timestamp + ".png")
                 os.popen("adb shell rm /data/local/tmp/tmp.png")
-            raise AssertionError, msg  # 抛出AssertionError和信息
+            raise (AssertionError, msg)  # 抛出AssertionError和信息
         return wrapper
 
 

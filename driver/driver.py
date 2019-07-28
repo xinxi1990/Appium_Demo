@@ -28,7 +28,7 @@ class AppiumDriver():
         caps["appPackage"] = "com.xueqiu.android"
         caps["appActivity"] = ".view.WelcomeActivityAlias"
         caps["autoGrantPermissions"] = True
-        caps["automationName"] = "UiAutomator2"
+        # caps["automationName"] = "UiAutomator2"
         cls.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         cls.driver.implicitly_wait(6)
         return cls.driver

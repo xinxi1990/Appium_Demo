@@ -42,5 +42,5 @@ class MyClass(object):
 if __name__ == '__main__':
     a =   MyClass()
     b = MyClass()
-    print id(a)
-    print id(b)
+    print(id(a))
+    print(id(b))

@@ -31,7 +31,7 @@ class BasePage(unittest.TestCase):
 
     def setUp(self):
         self.driver = AppiumDriver.initDriver()
-        print "appium id:{}".format(id(self.driver))
+        print("appium id:{}".format(id(self.driver)))
         self.close_ad()
 
 
