@@ -1,0 +1,22 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552630155119" stop="1552630155119">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1552630155119" status="broken" stop="1552630155119">
+      <name>test_optional</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>testpages/test_optional.py:15: in &lt;module&gt;
+    class TestOptional(BasePage):
+testpages/test_optional.py:26: in TestOptional
+    @screen_shot_cut("测试首页自选:删除股票-添加股票")
+E   NameError: name 'screen_shot_cut' is not defined</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

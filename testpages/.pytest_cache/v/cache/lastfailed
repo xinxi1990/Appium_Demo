@@ -1,0 +1,9 @@
+{
+  "test_et.py": true, 
+  "test_et.py::TestET::test_et": true, 
+  "test_login.py": true, 
+  "test_login.py::TestLogin::test_login": true, 
+  "test_optional.py::TestOptional::()::test_select_stock": true, 
+  "test_optional.py::TestOptional::test_add_stock": true, 
+  "test_serach.py::TestSearch::()::test_add_stock": true
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "2068bece0633bfd6",
+  "name" : "test_optional",
+  "fullName" : "test_collection_phase.test_optional",
+  "historyId" : "fbdac61e4087eb9a8a56f682cc695afd",
+  "time" : {
+    "start" : 1552630155119,
+    "stop" : 1552630155119,
+    "duration" : 0
+  },
+  "description" : "This is the tests collection phase. Failures are modules that failed to collect.",
+  "descriptionHtml" : "<p>This is the tests collection phase. Failures are modules that failed to collect.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "failed",
+  "statusTrace" : "testpages/test_optional.py:15: in <module>\n    class TestOptional(BasePage):\ntestpages/test_optional.py:26: in TestOptional\n    @screen_shot_cut(\"测试首页自选:删除股票-添加股票\")\nE   NameError: name 'screen_shot_cut' is not defined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Collection phase"
+  }, {
+    "name" : "testClass",
+    "value" : "test_collection_phase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_optional"
+  }, {
+    "name" : "package",
+    "value" : "test_collection_phase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2068bece0633bfd6.json",
+  "parameterValues" : [ ]
+}

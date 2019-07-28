@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1564313758081" stop="1564313758081">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1564313758081" status="broken" stop="1564313758081">
+      <name>test_mac</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>ImportError while importing test module '/Users/xinxi/Desktop/Appium_Demo-master/demo/test_mac.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+demo/test_mac.py:9: in &lt;module&gt;
+    import utilities
+E   ImportError: No module named utilities</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1564313758081" status="broken" stop="1564313758081">
+      <name>test_newmac</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>demo/test_newmac.py:32: in &lt;module&gt;
+    driver = webdriver.Remote(command_executor='http://localhost:4723/wd/hub', desired_capabilities=desiredCapabilities)
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py:157: in __init__
+    self.start_session(capabilities, browser_profile)
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py:252: in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py:319: in execute
+    response = self.command_executor.execute(driver_command, params)
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/remote_connection.py:374: in execute
+    return self._request(command_info[0], url, body=data)
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/remote/remote_connection.py:402: in _request
+    resp = http.request(method, url, body=body, headers=headers)
+/usr/local/lib/python2.7/site-packages/urllib3/request.py:72: in request
+    **urlopen_kw)
+/usr/local/lib/python2.7/site-packages/urllib3/request.py:150: in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+/usr/local/lib/python2.7/site-packages/urllib3/poolmanager.py:322: in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+/usr/local/lib/python2.7/site-packages/urllib3/connectionpool.py:667: in urlopen
+    **response_kw)
+/usr/local/lib/python2.7/site-packages/urllib3/connectionpool.py:667: in urlopen
+    **response_kw)
+/usr/local/lib/python2.7/site-packages/urllib3/connectionpool.py:667: in urlopen
+    **response_kw)
+/usr/local/lib/python2.7/site-packages/urllib3/connectionpool.py:638: in urlopen
+    _stacktrace=sys.exc_info()[2])
+/usr/local/lib/python2.7/site-packages/urllib3/util/retry.py:398: in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+E   MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10a884650&gt;: Failed to establish a new connection: [Errno 61] Connection refused',))</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+    <test-case start="1564313758081" status="broken" stop="1564313758081">
+      <name>test_serach</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>ImportError while importing test module '/Users/xinxi/Desktop/Appium_Demo-master/testpages/test_serach.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+testpages/test_serach.py:6: in &lt;module&gt;
+    from pages.home import Home
+E   ImportError: cannot import name Home</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

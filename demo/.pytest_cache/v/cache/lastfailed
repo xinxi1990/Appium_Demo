@@ -1,0 +1,5 @@
+{
+  "test_atomac.py": true, 
+  "test_mac.py::TestMac::test_demo": true, 
+  "test_newmac.py": true
+}

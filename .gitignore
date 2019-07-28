@@ -1,0 +1,6 @@
+*.sql
+*.pyc
+*.log
+.idea/*
+screenshot/*
+webdriver

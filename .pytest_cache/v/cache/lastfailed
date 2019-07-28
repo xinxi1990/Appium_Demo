@@ -1,0 +1,11 @@
+{
+  "demo/test_atomac.py": true, 
+  "demo/test_mac.py": true, 
+  "demo/test_newmac.py": true, 
+  "test.py::test_demo": true, 
+  "testdemo.py::TestDemo::test_login": true, 
+  "testpages/test_et.py::TestET::test_et": true, 
+  "testpages/test_optional.py::TestOptional::test_select_stock": true, 
+  "testpages/test_serach.py": true, 
+  "testpages/test_serach.py::TestSearch::test_add_stock": true
+}
